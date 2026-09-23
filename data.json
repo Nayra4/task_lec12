@@ -1,5 +1,14 @@
-{"auth":[{"email":"menna1682009@asls.com","password":"$2b$10$BooQvrL0SpX.8eUhiKnui.N.hEuKlNiyTC22KxjOSTHrlP31A6rDi","usename":"menna_beauty","id":97131}
-,{"email":"nayraawad85@gim.com","password":"$2b$10$QNT85x5E7hyFGvpBqWiEd.bdvGA86BTNKmL6Y6K/wJ9Q1ts/ausUm","usename":"nayra@5","isVerified":false,"id":35106}]
-
-
-,"users":[{"id":1,"name":"nayra_awad","age":20,"adress":{"city":"bassos","country":"egypt"}},{"id":3,"name":"somia","age":20,"adress":{"city":"bassos","country":"egypt"}},{"id":4,"name":"nada","age":20,"adress":{"city":"bassos","country":"egypt"}},{"id":6,"name":"awad","age":20,"adress":{"city":"bassos","country":"egypt"}},{"name":"hosam","age":25},{"id":99,"name":"allian","age":50},{"name":"hamed","age":50,"id":75611},{"name":"amal","age":52,"id":13858},{"name":"amal","age":52,"id":82822},{"name":"kahled","age":50,"id":81409},{"name":"allian","age":50,"email":"nayra72@gmail.com","id":5892},{"name":"allian","age":50,"email":"nayra72@gmail.","id":37895},{"name":"allian","age":50,"email":"nayra72@gmail.","id":32041},{"name":"naytra ","age":50,"email":"nayra72@gmail.com","id":7612},{"name":"naytra ","age":50,"email":"nayra72@gmail.com","id":89960},{"name":50,"age":50,"email":"nayra72@gmail.com","id":79821},{"name":"j","age":50,"email":"nayra72@gmail.com","id":50958},{"name":"j","age":50,"email":"nayra72@gmail.com","id":92112},{"name":"jxnjs","age":50,"email":"nayra72@gmail.com","id":86850},{"name":"jxnjs","age":50,"email":"nayra72@gmail.com","id":6559}],"author":[{"id":1,"name":"Ahmed Khaled","books":["The Lost City","Beyond the Stars","The Last Journey"]},{"id":2,"name":"Sara Mohamed","books":["Dreams of Tomorrow","The Silent Ocean"]},{"id":3,"name":"Omar Hassan","books":["The Hidden Truth","Shadows in the Dark","A New Beginning"]},{"id":4,"name":"Mariam Ali","books":["Letters to the Moon","The Forgotten Garden"]},{"name":"jems clear","books":["atomic habit"],"id":32489},{"name":"nayra","books":["mom","non"],"id":61720}]}
+{
+  "auth_users": [
+    {
+      "email": "eyad@test.com",
+      "username": "eyad alsherif",
+      "passwordHash": "$2b$10$YbGXXnWRopAoyCTLskC9/elWTx80n0DyoGdEuJTxO2qLFMpYykWwG",
+      "is_verified": false,
+      "id": "6045921"
+    }
+  ],
+  "users": [{"name": "eyad"}, {"name": "ahmed"}],
+  "books": [],
+  "orders": []
+}
