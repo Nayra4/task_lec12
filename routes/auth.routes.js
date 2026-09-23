@@ -37,7 +37,7 @@ authRouter.post("/login",validate(loginsch),async (req, res) => {
 
   // TODO: implement actual authentication (bcrypt, JWT, etc.)
   //chech email 
-    const data =await db.getall("auth_users")
+    const data =await db.getAll("auth_users")
     const check = data.find((x)=>x.email===req.body.email)
     if(!check){
         return res.status(422).json({
@@ -91,7 +91,7 @@ authRouter.post("/register",validate(authvali), async(req, res) => {
       const hash =await bcrypt.hash(req.body.password,10)
     
    //chech email is uniqe
-    const data =await db.getall("auth_users")
+    const data =await db.getAll("auth_users")
     const check =data.find((x)=>x.email===req.body.email)
     if(check){
       return res.status(422).json({
